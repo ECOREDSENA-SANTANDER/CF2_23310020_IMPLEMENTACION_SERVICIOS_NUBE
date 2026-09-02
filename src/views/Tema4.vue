@@ -26,7 +26,7 @@
       .col-lg-8(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 5.
-          span Características fundamentales del big data
+          span Características fundamentales del #[em big data]
         .tabla-a.color-acento-contenido.tabl2
           table
             thead.bg-color-7
@@ -58,7 +58,7 @@
         img(src='@/assets/curso/temas/t4/3.png', alt='')
       .col-lg-4
         img.mb-4.w-75x.d-none.d-lg-block(src='@/assets/curso/temas/t4/4.svg', alt='')
-        p.mb-0 Hace algunos años, analizar toda esta información requería servidores especializados, grandes inversiones en hardware y personal técnico dedicado a mantener la infraestructura. Como resultado, gran parte del esfuerzo se concentraba en administrar los equipos y no en analizar los datos.
+        p.mb-0 Hace algunos años, analizar toda esta información requería servidores especializados, grandes inversiones en #[em hardware] y personal técnico dedicado a mantener la infraestructura. Como resultado, gran parte del esfuerzo se concentraba en administrar los equipos y no en analizar los datos.
 
     p Con la llegada de la computación en la nube, este modelo cambió significativamente. Ahora es posible almacenar grandes cantidades de información y utilizar recursos de procesamiento únicamente cuando se necesitan; de esta manera, las organizaciones pagan por el uso real de los servicios, sin necesidad de adquirir y mantener infraestructura propia
 
@@ -73,7 +73,7 @@
     .mb-5(data-aos='fade-down')
       .titulo-sexto.color-acento-contenido.mb-3
         h5 Tabla 6.
-        span Diferencias entre data lake y data warehouse
+        span Diferencias entre #[em data lake] y #[em data warehouse]
       .tabla-a.color-acento-contenido
         table
           thead
@@ -103,14 +103,14 @@
               td Registros de acceso, videos, audios y documentos.
               td Indicadores de rendimiento y tableros de control.
 
-    p Puede imaginarse el #[em data lake] como una gran biblioteca donde se almacena todo tipo de información sin necesidad de clasificarla previamente. En cambio, el data warehouse funciona como una sala de consulta organizada, donde la información más relevante ya ha sido seleccionada, estructurada y preparada para el análisis.
+    p Puede imaginarse el #[em data lake] como una gran biblioteca donde se almacena todo tipo de información sin necesidad de clasificarla previamente. En cambio, el #[em data warehouse] funciona como una sala de consulta organizada, donde la información más relevante ya ha sido seleccionada, estructurada y preparada para el análisis.
 
     .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-4(data-aos='fade')
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require_src('@/assets/curso/temas/t4/5.png')})`}"
       )
       .bloque-texto-g__texto.p-4.py-lg-5
-        p.mb-0 #[b Por ejemplo.]#[br]Una institución educativa puede almacenar en un data lake todos los registros históricos de acceso a plataformas virtuales, resultados académicos, encuestas y actividades realizadas por los aprendices. Posteriormente, los datos más importantes se organizan en un #[em data warehouse] para generar informes sobre rendimiento académico, permanencia estudiantil o efectividad de las estrategias pedagógicas.
+        p.mb-0 #[b Por ejemplo.]#[br]Una institución educativa puede almacenar en un #[em data lake] todos los registros históricos de acceso a plataformas virtuales, resultados académicos, encuestas y actividades realizadas por los aprendices. Posteriormente, los datos más importantes se organizan en un #[em data warehouse] para generar informes sobre rendimiento académico, permanencia estudiantil o efectividad de las estrategias pedagógicas.
     
     p Gracias a estos servicios, los directivos pueden consultar indicadores y tableros de control en cuestión de segundos, transformando grandes volúmenes de información en conocimiento útil para la toma de decisiones.
 

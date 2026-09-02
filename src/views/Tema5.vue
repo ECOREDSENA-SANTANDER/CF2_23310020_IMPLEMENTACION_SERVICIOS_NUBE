@@ -76,7 +76,7 @@
       .col-lg-4.d-none.d-lg-block(data-aos='fade-left')
         img(src='@/assets/curso/temas/t5/3.png', alt='')
     
-    p Una vez recopilada, la información se almacena en un data lake utilizando servicios administrados de nube capaces de recibir grandes volúmenes de datos de forma automática y escalable.
+    p Una vez recopilada, la información se almacena en un #[em data lake] utilizando servicios administrados de nube capaces de recibir grandes volúmenes de datos de forma automática y escalable.
 
 
     Separador
@@ -127,7 +127,7 @@
           img.mb-3.d-none.d-lg-block(src='@/assets/curso/temas/t5/5.png', alt='')
           p.mb-0 #[b Por ejemplo.] Una institución educativa puede encontrar que el mismo programa de formación aparece registrado con nombres diferentes en distintos sistemas. Durante la transformación, estos registros se unifican para garantizar que los análisis posteriores sean precisos.
     
-    p Una vez completada la limpieza y organización de la información, los datos transformados se almacenan en un data warehouse, donde quedan disponibles para la generación de informes, indicadores y tableros de control.
+    p Una vez completada la limpieza y organización de la información, los datos transformados se almacenan en un #[em data warehouse], donde quedan disponibles para la generación de informes, indicadores y tableros de control.
     p.mb-4 El proceso completo puede representarse de la siguiente manera:
 
     .row.justify-content-center.arrow-steps3.mb-5(data-aos='fade')
@@ -168,7 +168,7 @@
           .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
           .row.justify-content-center
             .col-11
-              p.mb-0 Este es un recurso complementario que aborda cómo las organizaciones transforman grandes volúmenes de datos en información estratégica mediante tecnologías de big data, machine learning e inteligencia artificial. A lo largo de este espacio se explica el papel de estas herramientas en la automatización de procesos, la generación de predicciones y el fortalecimiento de la toma de decisiones, resaltando su contribución a la innovación, la eficiencia operativa y la transformación digital de las organizaciones.
+              p.mb-0 Este es un recurso complementario que aborda cómo las organizaciones transforman grandes volúmenes de datos en información estratégica mediante tecnologías de #[em big data], #[em machine learning] e inteligencia artificial. A lo largo de este espacio se explica el papel de estas herramientas en la automatización de procesos, la generación de predicciones y el fortalecimiento de la toma de decisiones, resaltando su contribución a la innovación, la eficiencia operativa y la transformación digital de las organizaciones.
 
 
 

@@ -12,7 +12,7 @@
         :style="{'background-image': `url(${require_src('@/assets/curso/temas/t2/1.png')})`}"
       )
       .bloque-texto-g__texto.p-4.py-lg-5
-        p.mb-0 Una vez seleccionada la arquitectura de nube, el siguiente paso consiste en diseñar y configurar la red que permitirá la comunicación segura entre los diferentes recursos tecnológicos. En los entornos tradicionales, esta segmentación se realizaba mediante dispositivos físicos, como enrutadores, conmutadores y cableado especializado; en la computación en la nube, estas funciones se implementan mediante software, lo que proporciona mayor flexibilidad, escalabilidad y control sobre la infraestructura.
+        p.mb-0 Una vez seleccionada la arquitectura de nube, el siguiente paso consiste en diseñar y configurar la red que permitirá la comunicación segura entre los diferentes recursos tecnológicos. En los entornos tradicionales, esta segmentación se realizaba mediante dispositivos físicos, como enrutadores, conmutadores y cableado especializado; en la computación en la nube, estas funciones se implementan mediante #[em software], lo que proporciona mayor flexibilidad, escalabilidad y control sobre la infraestructura.
     
     Separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
@@ -22,7 +22,7 @@
       .col-lg-1.d-none.d-lg-block(data-aos='fade-right')
         img(src='@/assets/curso/temas/t2/2.svg', alt='')
       .col-lg-11(data-aos='left')
-        p.mb-0 El elemento fundamental para construir redes seguras en la nube es la Virtual Private Cloud (VPC), un entorno de red virtual aislado lógicamente dentro de la infraestructura de una nube pública. Al crear una VPC, la organización puede definir su propio esquema de direccionamiento IP, crear subredes y configurar rutas de comunicación y mecanismos de acceso de acuerdo con sus necesidades.
+        p.mb-0 El elemento fundamental para construir redes seguras en la nube es la #[em Virtual Private Cloud] (VPC), un entorno de red virtual aislado lógicamente dentro de la infraestructura de una nube pública. Al crear una VPC, la organización puede definir su propio esquema de direccionamiento IP, crear subredes y configurar rutas de comunicación y mecanismos de acceso de acuerdo con sus necesidades.
     
     p Para comprender este concepto, puede utilizarse la analogía de un edificio empresarial. 
 

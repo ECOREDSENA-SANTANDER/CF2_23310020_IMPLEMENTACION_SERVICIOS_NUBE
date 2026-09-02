@@ -25,7 +25,7 @@
       .col-lg-5.d-none.d-lg-block(data-aos='fade-right')
         img(src='@/assets/curso/temas/t3/2.png', alt='')
       .col-lg-7(data-aos='fade-left')
-        p Los grupos de seguridad actúan como un firewall virtual a nivel de instancia (la máquina virtual). Su comportamiento es "con estado" (#[em stateful]), lo que significa que, si se configura una regla para permitir que una solicitud de tráfico ingrese al servidor, la respuesta a esa solicitud tiene garantizada la salida, independientemente de las reglas de tráfico saliente establecidas. Desde una perspectiva pedagógica, el grupo de seguridad funciona como un guardia personal asignado específicamente a la puerta de una oficina; solo permite la entrada a quienes figuran explícitamente en su lista de invitados (política de denegación por defecto). 
+        p Los grupos de seguridad actúan como un #[em firewall] virtual a nivel de instancia (la máquina virtual). Su comportamiento es "con estado" (#[em stateful]), lo que significa que, si se configura una regla para permitir que una solicitud de tráfico ingrese al servidor, la respuesta a esa solicitud tiene garantizada la salida, independientemente de las reglas de tráfico saliente establecidas. Desde una perspectiva pedagógica, el grupo de seguridad funciona como un guardia personal asignado específicamente a la puerta de una oficina; solo permite la entrada a quienes figuran explícitamente en su lista de invitados (política de denegación por defecto). 
         p Para comprender el funcionamiento de los grupos de seguridad, imagine un portal web de turismo donde las personas pueden consultar información sobre hoteles, sitios de interés y eventos de la región.
         .bg-color-4.p-4.mb-4
           p.mb-0 Los visitantes deben poder acceder libremente al sitio web desde cualquier lugar de internet. Por esta razón, el servidor web permite las conexiones necesarias para mostrar las páginas del portal. Sin embargo, las tareas de administración y mantenimiento del servidor solo deben ser realizadas por el equipo técnico autorizado, por lo que este acceso se restringe exclusivamente a sus equipos de trabajo.
@@ -141,7 +141,7 @@
     .row.justify-content-center.mb-4(data-aos='fade')
       .col-lg-4.mb-4.mb-lg-0
         .bg-color-4.d-flex.align-items-center.p-4.h-100
-          p.mb-0 En los entornos digitales actuales, los usuarios esperan que las aplicaciones y los servicios estén disponibles de forma permanente. Sin embargo, depender de un único servidor representa un riesgo, ya que cualquier falla de hardware, software o conectividad puede provocar la interrupción total del servicio.
+          p.mb-0 En los entornos digitales actuales, los usuarios esperan que las aplicaciones y los servicios estén disponibles de forma permanente. Sin embargo, depender de un único servidor representa un riesgo, ya que cualquier falla de #[em hardware], #[em software] o conectividad puede provocar la interrupción total del servicio.
       .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/temas/t3/11.png', alt='')
       .col-lg-4
@@ -199,7 +199,7 @@
         :style="{'background-image': `url(${require_src('@/assets/curso/temas/t3/14.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 En proyectos que requieren altos niveles de calidad y continuidad operativa, el balanceador de cargas también facilita la implementación de nuevas versiones de una aplicación mediante estrategias como los despliegues blue/green. En este enfoque, una nueva versión del sistema recibe inicialmente una pequeña parte del tráfico mientras la versión actual continúa atendiendo la mayoría de los usuarios. Si las pruebas son satisfactorias, el balanceador redirige progresivamente todo el tráfico hacia la nueva versión. Esto permite realizar actualizaciones con un impacto mínimo sobre los usuarios y reduce significativamente los riesgos asociados a los cambios en producción
+        p.mb-0 En proyectos que requieren altos niveles de calidad y continuidad operativa, el balanceador de cargas también facilita la implementación de nuevas versiones de una aplicación mediante estrategias como los despliegues #[em blue/green]. En este enfoque, una nueva versión del sistema recibe inicialmente una pequeña parte del tráfico mientras la versión actual continúa atendiendo la mayoría de los usuarios. Si las pruebas son satisfactorias, el balanceador redirige progresivamente todo el tráfico hacia la nueva versión. Esto permite realizar actualizaciones con un impacto mínimo sobre los usuarios y reduce significativamente los riesgos asociados a los cambios en producción
     
 
     Separador
@@ -265,7 +265,7 @@
       .col-lg-1.d-none.d-lg-block(data-aos='fade-right')
         img(src='@/assets/curso/temas/t3/18.svg', alt='')
       .col-lg-11(data-aos='fade-left')
-        p La gestión de la infraestructura en la nube también puede automatizarse mediante herramientas de infraestructura como código (#[em infrastructure as code] - IaC). En lugar de crear redes, servidores o reglas de seguridad manualmente desde una consola web, los administradores utilizan archivos de configuración y scripts que describen la infraestructura requerida.
+        p La gestión de la infraestructura en la nube también puede automatizarse mediante herramientas de infraestructura como código (#[em infrastructure as code] - IaC). En lugar de crear redes, servidores o reglas de seguridad manualmente desde una consola web, los administradores utilizan archivos de configuración y #[em scripts] que describen la infraestructura requerida.
     
     .mb-4(data-aos='fade-down')
       .titulo-sexto.color-acento-contenido.mb-3
@@ -290,7 +290,7 @@
             tr
               td Implementación de servidores.
               td Configuración uno a uno.
-              td Despliegue simultáneo mediante scripts.
+              td Despliegue simultáneo mediante #[em scripts].
             tr
               td Balanceadores de carga.
               td Configuración manual.
@@ -306,7 +306,7 @@
 
     h5 ¿Cómo se protege una aplicación en la nube desde Internet hasta la base de datos?
 
-    p Este es un recurso que explica de manera práctica cómo funcionan las redes seguras en entornos cloud. A través de un recorrido por componentes como VPC, subredes, controles de acceso y balanceadores de carga, conocerá cómo se protege la información y se garantiza la disponibilidad de los servicios digitales utilizados diariamente por millones de personas.
+    p Este es un recurso que explica de manera práctica cómo funcionan las redes seguras en entornos #[em cloud]. A través de un recorrido por componentes como VPC, subredes, controles de acceso y balanceadores de carga, conocerá cómo se protege la información y se garantiza la disponibilidad de los servicios digitales utilizados diariamente por millones de personas.
 
     figure
       .video

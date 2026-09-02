@@ -7,11 +7,11 @@
         span 6
       h1 Aprendizaje automático e inteligencia artificial como servicios gestionados
     
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-cent
       .col-lg-7(data-aos='fade-right')
-        p.mb-lg-4 Almacenar grandes cantidades de información no es suficiente para generar valor. Los datos deben pasar por una serie de etapas que permitan recopilarlos, organizarlos, depurarlos y transformarlos en información útil para la toma de decisiones.
+        p.mb-lg-4 Cuando los datos han sido recopilados, organizados y preparados para el análisis, las organizaciones pueden utilizar tecnologías de inteligencia artificial (IA) y aprendizaje automático (#[em machine learning] - ML) para identificar patrones, realizar predicciones y automatizar procesos.
         .bg-color-6.bg-complr-8.p-4.mb-4
-          p.mb-0 Este proceso se conoce como ciclo de vida de los datos y permite que la información fluya desde diferentes fuentes hasta convertirse en reportes, indicadores, modelos predictivos o sistemas de inteligencia artificial. En los entornos de nube, este ciclo se ejecuta mediante servicios administrados que automatizan gran parte del trabajo técnico, reduciendo la complejidad operativa y facilitando el análisis de grandes volúmenes de información
+          p.mb-0 La computación en la nube ha facilitado el acceso a estas tecnologías mediante servicios administrados que permiten desarrollar soluciones inteligentes sin necesidad de adquirir infraestructura especializada. Gracias a este modelo, empresas, instituciones educativas y entidades públicas pueden incorporar capacidades avanzadas de análisis y automatización en sus aplicaciones y procesos.
       .col-lg-5.d-none.d-lg-block(data-aos='fade-left')
         img(src='@/assets/curso/temas/t6/1.png', alt='')
     
@@ -32,7 +32,7 @@
     
     p.mb-4 El funcionamiento general puede resumirse de la siguiente manera:
 
-    .row.justify-content-center.arrow-steps4.mb-4(data-aos='fade')
+    .row.justify-content-center.arrow-steps4 *.mb-4(data-aos='fade')
       .col-lg-3.col-md-6.px-lg-0.mb-5.mb-lg-0
         .step-item
           .step-bg
@@ -67,7 +67,7 @@
     .mb-4(data-aos='fade-down')
       .titulo-sexto.color-acento-contenido.mb-3
         h5 Tabla 9.
-        span Niveles de servicios de inteligencia artificial en la nube
+        span Niveles de servicios de inteligencia artificial en la nube 
       .tabla-a.color-acento-contenido
         table
           thead
