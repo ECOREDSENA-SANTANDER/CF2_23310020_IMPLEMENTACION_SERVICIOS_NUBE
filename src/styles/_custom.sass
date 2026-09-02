@@ -3,56 +3,58 @@
   &-1
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 68%
+    top: 30%
     left: -10%
-    width: 20%
+    width: 18%
   &-2
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 30%
-    right: 10%
+    top: 15%
+    right: 35%
     width: 20%
-
-
+  &-3
+    animation: float1 2.5s ease-in-out infinite alternate
+    position: absolute
+    top: 72%
+    left: -6%
+    width: 18%    
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
+
 
 .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
   flex: 0 0 auto !important
   width: 58.33333333% !important
 .banner-principal__img 
-  padding-bottom: 0 !important;
+  padding-bottom: 0 !important
 .banner-principal__row .banner-principal__img 
-    width: 33%;
+  width: 33%
     
-.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
-  color: $color-sistema-texto !important  
-
 .boton *, .boton--sm *,
 .barra-avance__boton--regresar span
   color: $white !important
-.banner-interno__titulo h1, .banner-interno__titulo h2, 
-.banner-interno__titulo h3, .banner-interno__titulo h4, 
-.banner-interno__titulo h5, .banner-interno__titulo h6
-  color: $color-sistema-texto !important  
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: $white !important
 figcaption 
-    font-weight: normal !important
+  font-weight: normal !important
 
 .banner-interno__titulo__icono i
-    color: $color-acento-botones !important;
+  color: $color-acento-botones !important
+
+.banner-interno__fondo
+  background-image: url(../assets/curso/temas/bg/banner.png) !important
+  background-size: cover
+  background-repeat: no-repeat
 
 
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
 .p-full-width
-  padding: 3rem 3.5rem!important;
+  padding: 3rem 3.5rem!important
 .bg-full-width
   background-size: cover
   background-repeat: no-repeat
@@ -74,16 +76,10 @@ figcaption
     background-color: #EEE9F4 !important
   &-6
     background-color: #E6EDE9 
+  &-7
+    background-color: $color-acento-contenido
 
 
-.acordion
-  &__activo
-    background-color: #E6EDE9
-  &__accion__btn--a
-    background-color: $color-acento-botones
-    border-color: $color-acento-botones
-    i
-      color: $white
 .subt
   display: flex
   align-items: center
@@ -106,9 +102,10 @@ figcaption
   display: flex
   align-items: center
   position: relative  
-  width: fit-content  
+  width: fit-content 
+  padding: 5px 10px 
   img
-    width: 65px
+    width: 27px
     z-index: 1
   h3 
     z-index: 1
@@ -116,20 +113,127 @@ figcaption
     content: ''
     position: absolute
     background-color: #025661 
-    border-radius: 100px
+    border-radius: 10px
     width: 100%
-    height: 65%
+    height: 100%
     z-index: 0
+    left: 0px
 
 
+.arrow-steps
+  .step-item
+    background-color: #5C2D91
+    min-height: 80px
+    display: flex
+    align-items: center
+    justify-content: center
+    $notch: 30px
+    clip-path: polygon(0% 0%, calc(100% - #{$notch}) 0%, 100% 50%, calc(100% - #{$notch}) 100%, 0% 100%, #{$notch} 50%)
+    &--2
+      background-color: #BEABD3
+    &--f
+      clip-path: polygon( 0% 0%, 100% 0%, 100% 100%, 0% 100%, #{$notch} 50%)    
+.arrow-steps2
+  .step-item
+    background-color: #071466
+    min-height: 80px
+    display: flex
+    align-items: center
+    justify-content: center
+    $notch: 30px
+    clip-path: polygon(0% 0%, calc(100% - #{$notch}) 0%, 100% 50%, calc(100% - #{$notch}) 100%, 0% 100%, #{$notch} 50%)
+    &--2
+      background-color: #9BA1C2
+.arrow-steps3
+  .step-item
+    background-color: #025661
+    min-height: 80px
+    display: flex
+    align-items: center
+    justify-content: center
+    $notch: 30px
+    clip-path: polygon(0% 0%, calc(100% - #{$notch}) 0%, 100% 50%, calc(100% - #{$notch}) 100%, 0% 100%, #{$notch} 50%)
+    &--2
+      background-color: #9DB8A9
+.arrow-steps4
+  padding-top: 40px
+  .step-item
+    position: relative // ya NO lleva clip-path aquí
+    min-height: 80px
+    display: flex
+    align-items: center
+    justify-content: center
+    .step-bg
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      background-color: #071466
+      $notch: 30px
+      clip-path: polygon(0% 0%, calc(100% - #{$notch}) 0%, 100% 50%, calc(100% - #{$notch}) 100%, 0% 100%, #{$notch} 50%)
+      z-index: 0
+    h5
+      position: relative
+      z-index: 2
+    &--2 .step-bg
+      background-color: #9BA1C2
+  .step-icon
+    position: absolute
+    top: -40px
+    left: 50%
+    transform: translateX(-50%)
+    width: 70px
+    height: 70px
+    z-index: 2
 
 
+.w-75x
+  width: 75px
+.tabla-a.color-acento-contenido
+  thead
+    background-color: #E5EEEF
+  &.tabl2
+    thead
+      background-color: $color-acento-contenido
+      color: $white
+    tr:nth-child(2n)
+      background-color: #F6F6F6
+.acordion
+  &__activo
+    background-color: #E6EDE9
+  &__accion__btn--a
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+    i
+      color: $white
+  &__accion__btn--b
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+    i
+      color: $white
+  &__titulo h3
+    color: $white
+  &__activo .acordion__titulo h3
+    color: $color-sistema-texto
+.tabs-c
+  &__tab
+    background-color: #E5EEEF
+    &--active
+      background-color: $white
+.tarjeta-audio__texto
+  color: $color-sistema-texto !important
+  font-style: normal !important
 
 
 
 /**************************************************************/
 /*Media Queries*/  
 /**************************************************************/
+@media screen and (min-width: $bp-min-xl)
+  .col-lg-d5
+    flex: 0 0 auto !important
+    width: 20% !important
 
 //// DESKTOP SMALL 1400--------------------------------------
 @media screen and (max-width: $bp-min-xxl)

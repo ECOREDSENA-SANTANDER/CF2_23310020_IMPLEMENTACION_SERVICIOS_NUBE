@@ -7,39 +7,55 @@
         span 3
       h1 Herramientas avanzadas de seguridad y enrutamiento perimetral
     
-    .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5
+    .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5(data-aos='fade')
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require_src('@/assets/curso/temas/t3/1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 Una vez que la arquitectura ha sido seleccionada y el perímetro lógico (VPC) ha sido establecido, el diseño de la red debe dotarse de inteligencia y control operativo. La nube no es inherentemente segura por defecto; su seguridad depende de la correcta parametrización de las herramientas que filtran, dirigen y gestionan el tráfico de datos. En este apartado, el aprendiz desarrollará las competencias para emplear los servicios, parámetros y elementos de redes seguras, cumpliendo así con el criterio de evaluación rector del primer resultado de aprendizaje.
     
+
     Separador
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 3.1 Reglas de #[em firewall] y grupos de seguridad
     
     p En las infraestructuras de nube modernas, la protección perimetral no recae en un único equipo físico en el borde de la red, sino que se distribuye de manera granular a nivel de cada recurso virtualizado. Para lograr este nivel de aislamiento, los proveedores de nube implementan dos mecanismos complementarios: los grupos de seguridad (#[em Security Groups]) y las listas de control de acceso a la red (Network ACLs). Es fundamental que el profesional diferencie el alcance y el comportamiento de ambas herramientas para construir una defensa en profundidad. 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-5.d-none.d-lg-block(data-aos='fade-right')
         img(src='@/assets/curso/temas/t3/2.png', alt='')
       .col-lg-7(data-aos='fade-left')
         p Los grupos de seguridad actúan como un firewall virtual a nivel de instancia (la máquina virtual). Su comportamiento es "con estado" (#[em stateful]), lo que significa que, si se configura una regla para permitir que una solicitud de tráfico ingrese al servidor, la respuesta a esa solicitud tiene garantizada la salida, independientemente de las reglas de tráfico saliente establecidas. Desde una perspectiva pedagógica, el grupo de seguridad funciona como un guardia personal asignado específicamente a la puerta de una oficina; solo permite la entrada a quienes figuran explícitamente en su lista de invitados (política de denegación por defecto). 
         p Para comprender el funcionamiento de los grupos de seguridad, imagine un portal web de turismo donde las personas pueden consultar información sobre hoteles, sitios de interés y eventos de la región.
-        .bg-color-4.bg-complr-8.p-4.mb-4
+        .bg-color-4.p-4.mb-4
           p.mb-0 Los visitantes deben poder acceder libremente al sitio web desde cualquier lugar de internet. Por esta razón, el servidor web permite las conexiones necesarias para mostrar las páginas del portal. Sin embargo, las tareas de administración y mantenimiento del servidor solo deben ser realizadas por el equipo técnico autorizado, por lo que este acceso se restringe exclusivamente a sus equipos de trabajo.
     
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-1
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-1.d-none.d-lg-block(data-aos='fade-right')
         img(src='@/assets/curso/temas/t3/3.svg', alt='')
-      .col-lg-11
-        p Por otra parte, la base de datos que almacena la información del portal no debe ser accesible directamente desde internet. Su única función es atender las solicitudes provenientes del servidor web. De esta manera, cuando una persona consulta información en el portal, la solicitud llega primero al servidor web, y este se comunica internamente con la base de datos para obtener la información requerida.
+      .col-lg-11(data-aos='fade-left')
+        p.mb-0 Por otra parte, la base de datos que almacena la información del portal no debe ser accesible directamente desde internet. Su única función es atender las solicitudes provenientes del servidor web. De esta manera, cuando una persona consulta información en el portal, la solicitud llega primero al servidor web, y este se comunica internamente con la base de datos para obtener la información requerida.
     
-    //usuario internet
+    .row.justify-content-center.arrow-steps.mb-4(data-aos='fade')
+      .col-lg-d5.col-md-6.px-lg-0.mb-3.mb-lg-0
+        .step-item
+          h5.text-white.mb-0 Usuario de internet 
+      .col-lg-d5.col-md-6.px-lg-0.mb-3.mb-lg-0
+        .step-item.step-item--2
+          h5.mb-0 Servidor web 
+      .col-lg-d5.col-md-6.px-lg-0.mb-3.mb-lg-0
+        .step-item
+          h5.text-white.mb-0 Base de datos
+      .col-lg-d5.col-md-6.px-lg-0.mb-3.mb-lg-0
+        .step-item.step-item--2
+          h5.mb-0 Usuario de internet ✗
+      .col-lg-d5.col-md-6.px-lg-0.mb-3.mb-lg-0
+        .step-item.step-item--f
+          h5.text-white.mb-0 Base de datos
 
     p Con esta configuración, la base de datos permanece protegida y solo puede ser utilizada por los servicios que realmente la necesitan. Este enfoque aplica el principio de menor privilegio, que consiste en otorgar únicamente los accesos estrictamente necesarios para el funcionamiento del sistema.
 
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos='fade')
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require_src('@/assets/curso/temas/t3/4.png')})`}"
       )
@@ -53,55 +69,70 @@
     p Una red no solo necesita mecanismos de seguridad, también requiere reglas que indiquen por dónde debe circular la información. De poco sirve tener servidores, subredes y #[em firewalls] correctamente configurados si los datos no saben cómo llegar a su destino.
 
     .row.mb-4
-      .col-lg-3
+      .col-lg-3.d-none.d-lg-block(data-aos='fade-right')
         img(src='@/assets/curso/temas/t3/5.png', alt='')
-      .col-lg-9
+      .col-lg-9(data-aos='fade-left')
         p Las tablas de enrutamiento cumplen precisamente esta función. Pueden compararse con un sistema de señalización vial que indica qué camino debe seguir cada vehículo para llegar a un lugar específico. 
-        .bg-color-5(data-aos='fade').mb-3
+        .bg-color-5.tarjeta
           .row.justify-content-center.align-items-center
             .col-lg-5.d-none.d-lg-block
-              img(src='@/assets/curso/temas/t3/6.svg', alt='')
+              img.pt-lg-3.px-lg-3(src='@/assets/curso/temas/t3/6.svg', alt='')
             .col-lg-7
-              p En una red en la nube, los "vehículos" son los paquetes de datos y las tablas de enrutamiento les indican la ruta adecuada para comunicarse con otros recursos, acceder a internet o utilizar servicios externos.
+              .p-4
+                p.mb-0 En una red en la nube, los "vehículos" son los paquetes de datos y las tablas de enrutamiento les indican la ruta adecuada para comunicarse con otros recursos, acceder a internet o utilizar servicios externos.
 
-    TabsC.color-acento-botones.mb-4
+    TabsC.color-acento-botones.mb-4(data-aos='fade')
       .py-3.py-md-4(titulo="Subredes públicas e Internet Gateway")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            figure
-              img(src='@/assets/curso/temas/t3/7.png', alt='')
-          .col-md-6
+        .row.justify-content-center.align-items-center
+          .col-md-6.col-lg-5.col-9.mb-4.mb-lg-0
+            img(src='@/assets/curso/temas/t3/7.png', alt='')
+          .col-md-11.col-lg-6.col-11
             p Cuando una organización necesita que un servidor sea accesible desde internet, debe ubicarlo en una subred pública; para que esto sea posible, la tabla de enrutamiento debe incluir una ruta que dirija el tráfico externo hacia una puerta de enlace a internet (Internet Gateway).
             p Puede imaginarse el Internet Gateway como la puerta principal de un edificio. Aunque una oficina tenga dirección y esté preparada para recibir visitantes, nadie podrá entrar o salir si el edificio no tiene una puerta conectada con el exterior.
-            .bg-color-4.bg-complr-8.p-4.mb-4
+            .bg-color-4.p-4.mb-4
               p.mb-0 #[b Por ejemplo.] Un servidor web que aloja una tienda virtual necesita que los clientes puedan acceder a ella desde cualquier lugar. Para lograrlo, la subred donde se encuentra el servidor debe disponer de una ruta hacia el Internet Gateway.
       .py-3.py-md-4(titulo="Subredes privadas y NAT Gateway")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            figure
-              img(src='@/assets/curso/temas/t3/8.png', alt='')
-          .col-md-6
+        .row.justify-content-center.align-items-center
+          .col-md-6.col-lg-5.col-9.mb-4.mb-lg-0
+            img(src='@/assets/curso/temas/t3/8.png', alt='')
+          .col-md-11.col-lg-6.col-11
             p No todos los recursos deben estar expuestos a internet. Las bases de datos, los sistemas internos o los servicios de procesamiento suelen ubicarse en subredes privadas para aumentar su nivel de protección.
             p Sin embargo, estos recursos pueden necesitar acceso temporal a internet para descargar actualizaciones de seguridad, sincronizar información o consumir servicios externos. Permitir conexiones directas desde internet hacia estos sistemas representaría un riesgo de seguridad.
             p Para resolver esta situación se utiliza un NAT Gateway (Network Address Translation Gateway). Este servicio actúa como un intermediario entre los recursos privados e internet.
     
-    p Siguiendo la analogía del edificio, el NAT Gateway funciona como una recepción que realiza trámites externos en nombre de las oficinas internas. Las oficinas pueden enviar solicitudes hacia el exterior, pero las personas externas no pueden ingresar directamente a ellas.
+    p.mb-5 Siguiendo la analogía del edificio, el NAT Gateway funciona como una recepción que realiza trámites externos en nombre de las oficinas internas. Las oficinas pueden enviar solicitudes hacia el exterior, pero las personas externas no pueden ingresar directamente a ellas.
     
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-7
-        .subt-2.mb-4(data-aos='fade-right')
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-7(data-aos='fade-right')
+        .subt-2.mb-3
           img(src='@/assets/curso/temas/t3/9.svg', alt='')
-          h3.mb-0.ms-3.me-5.text-white El flujo de comunicación
-        //tarjetas
-        .subt-2.mb-4(data-aos='fade-right')
+          h3.mb-0.mx-3.text-white El flujo de comunicación
+        .row.justify-content-center.arrow-steps.mb-5.px-lg-3
+          .col-lg-4.col-md-6.px-lg-0.mb-3.mb-lg-0
+            .step-item
+              h5.text-white.mb-0 Servidor privado 
+          .col-lg-4.col-md-6.px-lg-0.mb-3.mb-lg-0
+            .step-item.step-item--2
+              h5.mb-0 NAT Gateway 
+          .col-lg-4.col-md-6.px-lg-0.mb-3.mb-lg-0
+            .step-item
+              h5.text-white.mb-0 Base de datos
+        .subt-2.mb-3
           img(src='@/assets/curso/temas/t3/9.svg', alt='')
-          h3.mb-0.ms-3.me-5.text-white Mientras que la siguiente comunicación permanece bloqueada
-        //tarjetas
-      .col-lg-5
+          h3.mb-0.mx-3.text-white Mientras que la siguiente comunicación permanece bloqueada
+        .row.justify-content-center.arrow-steps.mb-4.px-lg-3
+          .col-lg-6.col-md-6.px-lg-0.mb-3.mb-lg-0
+            .step-item
+              h5.text-white.mb-0 Internet ✗
+          .col-lg-6.col-md-6.px-lg-0.mb-3.mb-lg-0
+            .step-item.step-item--2
+              h5.mb-0 Servidor privado
+      .col-lg-5.d-none.d-lg-block(data-aos='fade-left')
         img(src='@/assets/curso/temas/t3/10.png', alt='')
     
     p Gracias a esta configuración, los recursos internos pueden acceder a servicios externos cuando lo necesitan, manteniendo al mismo tiempo la protección frente a conexiones no autorizadas provenientes de internet.
     p Por todo lo expuesto, las tablas de enrutamiento, los Internet Gateway y los NAT Gateway trabajan conjuntamente para controlar cómo circula la información dentro y fuera de la infraestructura. Esta combinación permite equilibrar conectividad y seguridad, garantizando que cada recurso tenga acceso únicamente a las comunicaciones que requiere para cumplir su función
+
 
     Separador
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
@@ -114,31 +145,31 @@
       .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/temas/t3/11.png', alt='')
       .col-lg-4
-        img.mb-5.w-85x.d-none.d-lg-block(src='@/assets/curso/temas/t3/12.svg', alt='')
+        img.mb-3.w-75x.d-none.d-lg-block(src='@/assets/curso/temas/t3/12.svg', alt='')
         p.mb-0 Para reducir este riesgo, las arquitecturas en la nube utilizan múltiples servidores que trabajan conjuntamente, bajo estas condiciones, el balanceador de cargas (Load Balancer) actúa como un intermediario inteligente que recibe las solicitudes de los usuarios y las distribuye entre varios servidores disponibles.
     
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-4(data-aos='fade')
       .col-lg-8
         .cajon.color-acento-contenido.bg-color-5.p-4
           p.mb-0 Por ejemplo. Cuando cientos o miles de estudiantes acceden simultáneamente a una plataforma de formación virtual, todas las solicitudes llegan inicialmente al balanceador de cargas. Este analiza el estado y la capacidad de los servidores disponibles y dirige cada solicitud hacia el recurso que tenga mayor disponibilidad en ese momento.
     
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-1
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-1.d-none.d-lg-block(data-aos='fade-right')
         img(src='@/assets/curso/temas/t3/13.svg', alt='')
-      .col-lg-11
+      .col-lg-11(data-aos='fade-left')
         p Además de distribuir el tráfico, el balanceador supervisa continuamente el estado de los servidores. Si detecta que uno de ellos presenta fallas o deja de responder, deja de enviarle solicitudes y redirige automáticamente el tráfico hacia los servidores que continúan operando. De esta manera, los usuarios pueden seguir utilizando el servicio sin interrupciones perceptibles.
     
-    p La siguiente tabla expone las principales funciones y beneficios del balanceo de cargas en entornos de nube
+    p.mb-4 La siguiente tabla expone las principales funciones y beneficios del balanceo de cargas en entornos de nube
 
-    .mb-4
-      .titulo-sexto.color-acento-contenido.mb-4
+    .mb-4(data-aos='fade-down')
+      .titulo-sexto.color-acento-contenido.mb-3
         h5 Tabla 2.
         span Funciones y beneficios del balanceo de cargas
-      .tabla-a.color-primario.mb-5
+      .tabla-a.color-acento-contenido
         table
           thead
             tr
-              th Función
+              th.w-25 Función
               th Descripción
               th Beneficio
           tbody
@@ -163,27 +194,29 @@
               td Dirige las solicitudes al servidor más disponible.
               td Mejora los tiempos de respuesta.
     
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos='fade')
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require_src('@/assets/curso/temas/t3/14.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 En proyectos que requieren altos niveles de calidad y continuidad operativa, el balanceador de cargas también facilita la implementación de nuevas versiones de una aplicación mediante estrategias como los despliegues blue/green. En este enfoque, una nueva versión del sistema recibe inicialmente una pequeña parte del tráfico mientras la versión actual continúa atendiendo la mayoría de los usuarios. Si las pruebas son satisfactorias, el balanceador redirige progresivamente todo el tráfico hacia la nueva versión. Esto permite realizar actualizaciones con un impacto mínimo sobre los usuarios y reduce significativamente los riesgos asociados a los cambios en producción
     
+
     Separador
     #t_3_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 3.4 Automatización y controles de acceso (IAM) en la red
     
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-1
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-1.d-none.d-lg-block(data-aos='fade-right')
         img(src='@/assets/curso/temas/t3/15.svg', alt='')
-      .col-lg-11 A medida que las infraestructuras en la nube crecen en tamaño y complejidad, administrar manualmente cada usuario, servidor, red o permiso se vuelve una tarea difícil y propensa a errores. Por esta razón, las organizaciones utilizan servicios de Gestión de Identidades y Accesos (IAM - Identity and Access Management), los cuales permiten controlar de forma centralizada quién puede acceder a los recursos y qué acciones puede realizar.
+      .col-lg-11(data-aos='fade-left')
+        p.mb-0 A medida que las infraestructuras en la nube crecen en tamaño y complejidad, administrar manualmente cada usuario, servidor, red o permiso se vuelve una tarea difícil y propensa a errores. Por esta razón, las organizaciones utilizan servicios de Gestión de Identidades y Accesos (IAM - Identity and Access Management), los cuales permiten controlar de forma centralizada quién puede acceder a los recursos y qué acciones puede realizar.
     
-    p IAM funciona bajo el principio de otorgar únicamente los permisos necesarios para cumplir una función específica. De esta manera, se reduce el riesgo de accesos no autorizados y se fortalece la seguridad de la infraestructura.
+    p.mb-4 IAM funciona bajo el principio de otorgar únicamente los permisos necesarios para cumplir una función específica. De esta manera, se reduce el riesgo de accesos no autorizados y se fortalece la seguridad de la infraestructura.
    
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos='fade-down')
       .col-lg-10
-        .titulo-sexto.color-acento-contenido.mb-4
+        .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 1.
           span Funcionamiento básico  de IAM
         img(src='@/assets/curso/temas/t3/16.svg', alt='El proceso representa el flujo de control de acceso en un entorno de nube. Un usuario o servicio solicita acceso a un recurso, la plataforma IAM valida su identidad y permisos, y posteriormente determina si puede interactuar con elementos como redes virtuales (VPC), servidores, bases de datos, servicios de almacenamiento y balanceadores de carga. Este mecanismo garantiza que cada recurso sea utilizado únicamente por entidades autorizadas conforme a las políticas de seguridad definidas.')
@@ -192,53 +225,53 @@
     p Por ejemplo, un servidor web puede tener autorización para almacenar registros de auditoría en un servicio de almacenamiento, pero no para modificar bases de datos o eliminar archivos críticos.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8
-        .titulo-sexto.color-acento-contenido.mb-4
+      .col-lg-8(data-aos='fade-right')
+        .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 3.
           span Componentes de la Gestión de Identidades y Accesos (IAM)
-        .tabla-a.color-acento-contenido.mb-5
+        .tabla-a.color-acento-contenido.tabl2
           table
             thead
               tr
-                th Componente
+                th.w-25 Componente
                 th Función
             tbody
               tr
-                td Usuario.
+                td.fw-bold Usuario.
                 td Identidad asociada a una persona que accede a los recursos.
               tr
-                td Rol.
+                td.fw-bold Rol.
                 td Conjunto de permisos asignados temporalmente a usuarios o servicios.
               tr
-                td Política.
+                td.fw-bold Política.
                 td Documento que define las acciones permitidas o denegadas sobre los recursos.
               tr
-                td Autenticación.
+                td.fw-bold Autenticación.
                 td Proceso para verificar la identidad de quien solicita acceso.
               tr
-                td Autorización.
+                td.fw-bold Autorización.
                 td Proceso para determinar qué acciones puede realizar un usuario o servicio.
               tr
-                td Permisos.
+                td.fw-bold Permisos.
                 td Acciones específicas que pueden ejecutarse sobre un recurso.
-      .col-lg-4
+      .col-lg-4.d-none.d-lg-block(data-aos='fade-left')
         img(src='@/assets/curso/temas/t3/17.png', alt='')
     
     .subt.mb-4(data-aos='fade-right')
       img(src='@/assets/curso/temas/t3/subt.svg', alt='')
-      h3.mb-0.ms-3.me-5.text-white Automatización de la infraestructura
+      h3.mb-0.mx-3.text-white Automatización de la infraestructura
     
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-1
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-1.d-none.d-lg-block(data-aos='fade-right')
         img(src='@/assets/curso/temas/t3/18.svg', alt='')
-      .col-lg-11
+      .col-lg-11(data-aos='fade-left')
         p La gestión de la infraestructura en la nube también puede automatizarse mediante herramientas de infraestructura como código (#[em infrastructure as code] - IaC). En lugar de crear redes, servidores o reglas de seguridad manualmente desde una consola web, los administradores utilizan archivos de configuración y scripts que describen la infraestructura requerida.
     
-    .mb-4
-      .titulo-sexto.color-acento-contenido.mb-4
+    .mb-4(data-aos='fade-down')
+      .titulo-sexto.color-acento-contenido.mb-3
         h5 Tabla 4.
         span Ejemplos de automatización mediante infraestructura como código o IaC
-      .tabla-a.color-primario.mb-5
+      .tabla-a.color-acento-contenido
         table
           thead
             tr
@@ -267,7 +300,7 @@
               td Ajustes individuales.
               td Implementación consistente en toda la infraestructura.
         
-    p La integración entre IAM y la automatización permite que las organizaciones administren infraestructuras seguras, consistentes y escalables. Gracias a este enfoque, las configuraciones pueden desplegarse en minutos, reducir errores humanos y garantizar que los controles de seguridad se apliquen de forma uniforme en todos los recursos de la nube.
+    p.mb-5 La integración entre IAM y la automatización permite que las organizaciones administren infraestructuras seguras, consistentes y escalables. Gracias a este enfoque, las configuraciones pueden desplegarse en minutos, reducir errores humanos y garantizar que los controles de seguridad se apliquen de forma uniforme en todos los recursos de la nube.
 
     p Le invitamos a explorar el video :
 
@@ -278,7 +311,7 @@
     figure
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video   
+      figcaption Video. 
         
 
 
