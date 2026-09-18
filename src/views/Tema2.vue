@@ -26,8 +26,16 @@
     
     p Para comprender este concepto, puede utilizarse la analogía de un edificio empresarial. 
 
-    .mb-5(data-aos='fade')
-      img(src='@/assets/curso/temas/t2/3.jpg', alt='')
+    .row.justify-content-center.align-items-center.mb-4(data-aos='fade')
+      .col-lg-6(data-aos='fade-right')
+        .bg-color-4.color-primario--borde.tarjeta.p-4.mb-3
+          p.mb-0 La nube pública representa una ciudad donde operan múltiples organizaciones.
+        .bg-color-6.color-secundario--borde.tarjeta.p-4.mb-3
+          p.mb-0 La VPC equivale al edificio exclusivo de una empresa dentro de esa ciudad. Aunque comparte el entorno general con otras organizaciones, dispone de sus propios espacios, accesos y controles de seguridad.
+        .bg-color-5.color-acento-contenido--borde.tarjeta.p-4
+          p.mb-0 Dentro de una VPC es posible crear diferentes áreas o zonas de trabajo denominadas subredes. Estas permiten organizar los recursos según el nivel de acceso que requieran. Comparte el entorno general con otras organizaciones, dispone de sus propios espacios, accesos y controles de seguridad.
+      .col-lg-6.d-none.d-lg-block(data-aos='fade-left')
+        img(src='@/assets/curso/temas/t2/12.png', alt='')
     
     .row.justify-content-center.align-items-center
       .col-lg-5.d-none.d-lg-block(data-aos='fade-right')

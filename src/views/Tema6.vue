@@ -32,7 +32,7 @@
     
     p.mb-4 El funcionamiento general puede resumirse de la siguiente manera:
 
-    .row.justify-content-center.arrow-steps4 *.mb-4(data-aos='fade')
+    .row.justify-content-center.arrow-steps4.mb-4(data-aos='fade')
       .col-lg-3.col-md-6.px-lg-0.mb-5.mb-lg-0
         .step-item
           .step-bg

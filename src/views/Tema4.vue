@@ -60,7 +60,7 @@
         img.mb-4.w-75x.d-none.d-lg-block(src='@/assets/curso/temas/t4/4.svg', alt='')
         p.mb-0 Hace algunos años, analizar toda esta información requería servidores especializados, grandes inversiones en #[em hardware] y personal técnico dedicado a mantener la infraestructura. Como resultado, gran parte del esfuerzo se concentraba en administrar los equipos y no en analizar los datos.
 
-    p Con la llegada de la computación en la nube, este modelo cambió significativamente. Ahora es posible almacenar grandes cantidades de información y utilizar recursos de procesamiento únicamente cuando se necesitan; de esta manera, las organizaciones pagan por el uso real de los servicios, sin necesidad de adquirir y mantener infraestructura propia
+    p Con la llegada de la computación en la nube, este modelo cambió significativamente. Ahora es posible almacenar grandes cantidades de información y utilizar recursos de procesamiento únicamente cuando se necesitan; de esta manera, las organizaciones pagan por el uso real de los servicios, sin necesidad de adquirir y mantener infraestructura propia.
 
 
     Separador

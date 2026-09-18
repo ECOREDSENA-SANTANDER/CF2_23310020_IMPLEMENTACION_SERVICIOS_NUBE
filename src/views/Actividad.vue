@@ -4,9 +4,9 @@
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
       // Para cuestionario usar: <ActividadController :cuestionario="cuestionario"/>
       // Para parrafo usar: <ActividadController :parrafo="parrafo"/>
-      #Actividad                
+      #Actividad
       <ActividadController :cuestionario="cuestionario"/>
-  
+
   </template>
 
 <script>
@@ -281,7 +281,7 @@ export default {
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con direccionamiento interno y comunicación privada en redes <em>cloud</em>.',
+            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con IP pública e IP interna.',
         },
         {
           id: 9,
