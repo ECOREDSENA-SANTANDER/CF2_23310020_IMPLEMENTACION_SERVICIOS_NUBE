@@ -164,7 +164,7 @@
         .tarjeta.bg-white.p-4
           TarjetaAudio.color-acento-botones.mb-3(
           texto="De los datos a la inteligencia: el poder de big data y la IA en la nube."
-          :audio="require_src('@/assets/actividad/audio/success.mp3')")
+          :audio="require_src('@//assets/curso/temas/t5/CF2_23310020_Podcast.mp3')")
           .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
           .row.justify-content-center
             .col-11

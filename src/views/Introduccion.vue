@@ -22,13 +22,8 @@
         img(src='@/assets/curso/temas/intro/2.png', alt='')
     
     p.mb-4 La importancia de este componente en el proceso formativo radica en su pertinencia directa con las exigencias del sector productivo, por ejemplo, las organizaciones requieren cada vez más profesionales capaces no solo de implementar infraestructuras tecnológicas, sino también de garantizar que éstas operen de manera segura, escalable y eficiente. El verdadero desafío profesional consiste en diseñar cómo los sistemas se comunican de forma segura con el exterior y cómo procesan volúmenes masivos de información para generar valor organizacional; por ello, este material servirá como una guía metodológica y técnica para resolver problemas reales, garantizando que cada configuración de red y cada servicio de datos implementado respondan a requerimientos técnicos y necesidades operativas del entorno. Se invita al aprendiz a recorrer estos contenidos con una postura analítica, reconociendo que la automatización y la inteligencia artificial, sustentadas en redes seguras, constituyen elementos fundamentales para la creación de soluciones digitales competitivas y resilientes.
-    
-    .row.justify-content-center.align-items-center           
-      .col-lg-12
-        figure
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video. 
+
+
         
 
 </template>

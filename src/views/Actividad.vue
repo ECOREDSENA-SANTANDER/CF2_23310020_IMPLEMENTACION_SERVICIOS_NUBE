@@ -55,9 +55,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con las arquitecturas de computación en la nube.',
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los conceptos relacionados con la arquitectura de nube y su impacto en el diseño de redes seguras.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con las arquitecturas de computación en la nube.',
         },
         {
           id: 2,
@@ -87,9 +86,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con nube pública, privada e híbrida.',
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los conceptos relacionados con la nube pública y su modelo de múltiples inquilinos.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con nube pública, privada e híbrida.',
         },
         {
           id: 3,
@@ -119,9 +117,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el control, privacidad y cumplimiento en la nube privada.',
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los conceptos relacionados con la nube privada y su uso en entornos con datos sensibles.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el control, privacidad y cumplimiento en la nube privada.',
         },
         {
           id: 4,
@@ -151,9 +148,8 @@ export default {
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con nubes híbridas y conectividad segura.',
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los conceptos relacionados con la arquitectura híbrida y la integración segura entre entornos.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con nubes híbridas y conectividad segura.',
         },
         {
           id: 5,
@@ -183,9 +179,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la construcción de redes seguras mediante VPC.',
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los conceptos relacionados con la VPC como perímetro lógico en la nube.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la construcción de redes seguras mediante VPC.',
         },
         {
           id: 6,
@@ -215,9 +210,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con segmentación de redes en la nube.',
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los conceptos relacionados con subredes públicas y privadas en una VPC.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con segmentación de redes en la nube.',
         },
         {
           id: 7,
@@ -247,9 +241,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con multi-VPC y aislamiento de ambientes.',
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los conceptos relacionados con la segmentación de entornos mediante arquitecturas multi-VPC.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con multi-VPC y aislamiento de ambientes.',
         },
         {
           id: 8,
@@ -279,9 +272,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con IP pública e IP interna.',
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los conceptos relacionados con direccionamiento interno y comunicación privada en redes <em>cloud</em>.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con IP pública e IP interna.',
         },
         {
           id: 9,
@@ -311,9 +303,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con direccionamiento, conectividad y seguridad perimetral.',
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los conceptos relacionados con exposición controlada de recursos mediante IP pública.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con direccionamiento, conectividad y seguridad perimetral.',
         },
         {
           id: 10,
@@ -343,9 +334,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con seguridad perimetral en entornos <em>cloud</em>.',
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los conceptos relacionados con reglas de <em>firewall</em>, grupos de seguridad y NACLs.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con seguridad perimetral en entornos <em>cloud</em>.',
         },
         {
           id: 11,
@@ -375,9 +365,8 @@ export default {
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con grupos de seguridad y reglas de permisión explícita.',
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los conceptos relacionados con los grupos de seguridad como <em>firewall</em> virtual de instancia.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con grupos de seguridad y reglas de permisión explícita.',
         },
         {
           id: 12,
@@ -407,9 +396,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con enrutamiento y pasarelas en la nube.',
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los conceptos relacionados con tablas de enrutamiento y control del flujo de tráfico.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con enrutamiento y pasarelas en la nube.',
         },
         {
           id: 13,
@@ -439,9 +427,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con balanceadores de carga y resiliencia.',
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los conceptos relacionados con balanceo de cargas y alta disponibilidad en servicios web.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con balanceadores de carga y resiliencia.',
         },
         {
           id: 14,
@@ -471,9 +458,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con gobernanza, accesos y seguridad en la nube.',
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los conceptos relacionados con IAM y el principio de privilegio mínimo.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con gobernanza, accesos y seguridad en la nube.',
         },
         {
           id: 15,
@@ -503,9 +489,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con fundamentos de <em>big data</em> en infraestructuras <em>cloud</em>.',
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los conceptos relacionados con <em>big data</em> y procesamiento masivo de datos.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con fundamentos de <em>big data</em> en infraestructuras <em>cloud</em>.',
         },
         {
           id: 16,
@@ -535,9 +520,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con <em>data lake</em> y <em>data warehouse</em>.',
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los conceptos relacionados con repositorios analíticos y almacenamiento escalable.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con <em>data lake</em> y <em>data warehouse</em>.',
         },
         {
           id: 17,
@@ -567,9 +551,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con extracción, carga y transformación de datos.',
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los conceptos relacionados con ELT y el ciclo de vida del dato en la nube.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con extracción, carga y transformación de datos.',
         },
         {
           id: 18,
@@ -599,9 +582,8 @@ export default {
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con transformación y aseguramiento de la calidad de los datos.',
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los conceptos relacionados con calidad de datos y preparación para análisis.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con transformación y aseguramiento de la calidad de los datos.',
         },
         {
           id: 19,
@@ -631,9 +613,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con IA y <em>machine learning</em> como servicios gestionados.',
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los conceptos relacionados con inteligencia artificial y aprendizaje automático en la nube.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con IA y <em>machine learning</em> como servicios gestionados.',
         },
         {
           id: 20,
@@ -663,9 +644,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con integración de APIs y modelos preentrenados.',
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los conceptos relacionados con APIs, modelos preentrenados y servicios cognitivos en la nube.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con integración de APIs y modelos preentrenados.',
         },
       ],
       mensaje_final_aprobado: 'Ha superado la actividad y demuestra sólidos conocimientos sobre redes seguras, VPC, segmentación, seguridad perimetral, <em>big data</em>, <em>machine learning</em> e inteligencia artificial como servicios gestionados en la nube.',
