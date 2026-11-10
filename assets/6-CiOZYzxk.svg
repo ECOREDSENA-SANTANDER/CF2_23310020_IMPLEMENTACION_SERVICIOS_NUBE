@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="84" height="84" viewBox="0 0 84 84">
+  <g id="Grupo_1185891" data-name="Grupo 1185891" transform="translate(-185.538 -3296)">
+    <rect id="Rectángulo_458881" data-name="Rectángulo 458881" width="84" height="84" rx="10" transform="translate(185.538 3296)" fill="#ffb900"/>
+    <g id="Grupo_1185890" data-name="Grupo 1185890" transform="translate(195.538 3305.999)">
+      <path id="path4" d="M42,25h9a1,1,0,0,0,0-2H42a1,1,0,0,0,0,2Z" fill="#a3212e" fill-rule="evenodd"/>
+      <path id="path8" d="M13,25h9a1,1,0,0,0,0-2H13a1,1,0,0,0,0,2Z" fill="#a3212e" fill-rule="evenodd"/>
+      <path id="path12" d="M47,48.5A7.5,7.5,0,0,0,39.5,41h-15a7.5,7.5,0,0,0,0,15h15A7.5,7.5,0,0,0,47,48.5Z" fill="#79d0fc" fill-rule="evenodd"/>
+      <path id="path16" d="M40.066,56.982A8.5,8.5,0,0,0,39.5,40h-15a8.5,8.5,0,0,0-.565,16.982,1,1,0,0,0,.131-2A6.5,6.5,0,0,1,24.5,42h15a6.5,6.5,0,0,1,.434,12.986,1,1,0,0,0,.131,2Z" fill="#143342" fill-rule="evenodd"/>
+      <path id="path20" d="M45,38a7,7,0,0,0-7-7H26a7,7,0,0,0,0,14H38A7,7,0,0,0,45,38Z" fill="#79d0fc" fill-rule="evenodd"/>
+      <circle id="ellipse24" cx="8" cy="8" r="8" transform="translate(7 35.001)" fill="#79d0fc"/>
+      <path id="path28" d="M8,43a7,7,0,0,1,7-7,1,1,0,0,0,0-2,9,9,0,0,0-9,9,1,1,0,1,0,2,0Z" fill="#143342" fill-rule="evenodd"/>
+      <path id="path32" d="M21.491,45.625a7,7,0,0,1-9.99,3.439,1,1,0,1,0-1,1.731,9,9,0,0,0,12.845-4.418,1,1,0,1,0-1.854-.751Z" fill="#143342" fill-rule="evenodd"/>
+      <circle id="circle36" cx="1" cy="1" r="1" transform="translate(7 46)" fill="#143342"/>
+      <circle id="ellipse40" cx="8" cy="8" r="8" transform="translate(41.001 35.001)" fill="#79d0fc"/>
+      <path id="path44" d="M49,36a7,7,0,1,1-6.491,9.624,1,1,0,1,0-1.854.751A9,9,0,1,0,49,34a1,1,0,0,0,0,2Z" fill="#143342" fill-rule="evenodd"/>
+      <circle id="ellipse48" cx="7" cy="7" r="7" transform="translate(15 28.001)" fill="#79d0fc"/>
+      <path id="path52" d="M18.648,39.976a6,6,0,0,1-.075-9.9,1,1,0,0,0-1.145-1.64,8,8,0,0,0,.1,13.2,1,1,0,0,0,1.12-1.657Z" fill="#143342" fill-rule="evenodd"/>
+      <circle id="ellipse56" cx="7" cy="7" r="7" transform="translate(35.001 28.001)" fill="#79d0fc"/>
+      <path id="path60" d="M45.428,30.077a6,6,0,0,1,0,9.848,1,1,0,0,0,1.145,1.64,8,8,0,0,0,0-13.128,1,1,0,0,0-1.145,1.64Z" fill="#143342" fill-rule="evenodd"/>
+      <path id="rect64" d="M22,21H42V39H22Z" fill="#f0eb60" fill-rule="evenodd"/>
+      <ellipse id="ellipse68" cx="10" cy="4" rx="10" ry="4" transform="translate(22.001 35)" fill="#f0eb60"/>
+      <ellipse id="ellipse72" cx="10" cy="4" rx="10" ry="4" transform="translate(22.001 29)" fill="#f0eb60"/>
+      <ellipse id="ellipse76" cx="10" cy="4" rx="10" ry="4" transform="translate(22.001 23)" fill="#f0eb60"/>
+      <g id="Grupo_1185889" data-name="Grupo 1185889">
+        <path id="path80" d="M31,56v5a1,1,0,0,0,2,0V56a1,1,0,0,0-2,0Z" fill="#a3212e" fill-rule="evenodd"/>
+        <path id="path84" d="M31,9v8a1,1,0,1,0,2,0V9a1,1,0,0,0-2,0Z" fill="#a3212e" fill-rule="evenodd"/>
+        <path id="path88" d="M12.293,9.707l10,10a1,1,0,0,0,1.415-1.414l-10-10a1,1,0,0,0-1.415,1.414Z" fill="#a3212e" fill-rule="evenodd"/>
+        <path id="path92" d="M50.293,8.293l-10,10a1,1,0,1,0,1.415,1.414l10-10a1,1,0,1,0-1.415-1.414Z" fill="#a3212e" fill-rule="evenodd"/>
+        <path id="path96" d="M35,56v3a1,1,0,0,0,.445.832l3,2A1,1,0,0,0,39,62h9a1,1,0,0,0,0-2H39.3L37,58.466V56a1,1,0,0,0-2,0Z" fill="#a3212e" fill-rule="evenodd"/>
+        <path id="path100" d="M27,56v2.465L24.7,60H16a1,1,0,0,0,0,2h9a1,1,0,0,0,.555-.168l3-2A1,1,0,0,0,29,59V56a1,1,0,0,0-2,0Z" fill="#a3212e" fill-rule="evenodd"/>
+        <circle id="circle104" cx="1" cy="1" r="1" transform="translate(51.001 60.001)" fill="#a3212e"/>
+        <circle id="circle108" cx="1" cy="1" r="1" transform="translate(55.001 60.001)" fill="#a3212e"/>
+        <circle id="circle112" cx="1" cy="1" r="1" transform="translate(7 60.001)" fill="#a3212e"/>
+        <circle id="circle116" cx="1" cy="1" r="1" transform="translate(11 60.001)" fill="#a3212e"/>
+      </g>
+      <path id="rect120" d="M28,3h8V9H28Z" fill="#f0eb60" fill-rule="evenodd"/>
+      <path id="path124" d="M37,3a1,1,0,0,0-1-1H28a1,1,0,0,0-1,1V9a1,1,0,0,0,1,1h8a1,1,0,0,0,1-1ZM35,4V8H29V4Z" fill="#143342" fill-rule="evenodd"/>
+      <path id="rect128" d="M51,3h8V9H51Z" fill="#f0eb60" fill-rule="evenodd"/>
+      <path id="path132" d="M60,3a1,1,0,0,0-1-1H51a1,1,0,0,0-1,1V9a1,1,0,0,0,1,1h8a1,1,0,0,0,1-1ZM58,4V8H52V4Z" fill="#143342" fill-rule="evenodd"/>
+      <path id="rect136" d="M51,21h8v6H51Z" fill="#f0eb60" fill-rule="evenodd"/>
+      <path id="path140" d="M60,21a1,1,0,0,0-1-1H51a1,1,0,0,0-1,1v6a1,1,0,0,0,1,1h8a1,1,0,0,0,1-1Zm-2,1v4H52V22Z" fill="#143342" fill-rule="evenodd"/>
+      <path id="rect144" d="M5,3h8V9H5Z" fill="#f0eb60" fill-rule="evenodd"/>
+      <path id="path148" d="M14,3a1,1,0,0,0-1-1H5A1,1,0,0,0,4,3V9a1,1,0,0,0,1,1h8a1,1,0,0,0,1-1ZM12,4V8H6V4Z" fill="#143342" fill-rule="evenodd"/>
+      <path id="rect152" d="M5,21h8v6H5Z" fill="#f0eb60" fill-rule="evenodd"/>
+      <path id="path156" d="M14,21a1,1,0,0,0-1-1H5a1,1,0,0,0-1,1v6a1,1,0,0,0,1,1h8a1,1,0,0,0,1-1Zm-2,1v4H6V22Z" fill="#143342" fill-rule="evenodd"/>
+      <ellipse id="ellipse160" cx="10" cy="4" rx="10" ry="4" transform="translate(22.001 17)" fill="#f0eb60"/>
+      <path id="path164" d="M21,39h0a3.373,3.373,0,0,0,1.506,2.629C24.289,43,27.866,44,32,44s7.712-1,9.494-2.371A3.373,3.373,0,0,0,43,39V21a3.373,3.373,0,0,0-1.506-2.629C39.712,17,36.136,16,32,16s-7.712,1-9.494,2.371A3.373,3.373,0,0,0,21,21V38.982Zm2,0V21a1,1,0,0,1,.278-.624,3.883,3.883,0,0,1,1.131-.86A16.788,16.788,0,0,1,32,18a16.788,16.788,0,0,1,7.59,1.516,3.883,3.883,0,0,1,1.131.86A1,1,0,0,1,41,21V39a1,1,0,0,1-.278.624,3.883,3.883,0,0,1-1.131.86A16.788,16.788,0,0,1,32,42a16.788,16.788,0,0,1-7.59-1.516,3.883,3.883,0,0,1-1.131-.86A1,1,0,0,1,23,39Z" fill="#143342" fill-rule="evenodd"/>
+      <path id="path168" d="M41,33a1,1,0,0,1-.278.624,3.883,3.883,0,0,1-1.131.86A16.788,16.788,0,0,1,32,36a16.788,16.788,0,0,1-7.59-1.516,3.883,3.883,0,0,1-1.131-.86A1,1,0,0,1,23,33a1,1,0,0,0-2,0,3.373,3.373,0,0,0,1.506,2.629C24.289,37,27.865,38,32,38s7.712-1,9.494-2.371A3.373,3.373,0,0,0,43,33a1,1,0,0,0-2,0Z" fill="#143342" fill-rule="evenodd"/>
+      <path id="path172" d="M41,27a1,1,0,0,1-.278.624,3.883,3.883,0,0,1-1.131.86A16.788,16.788,0,0,1,32,30a16.788,16.788,0,0,1-7.59-1.516,3.883,3.883,0,0,1-1.131-.86A1,1,0,0,1,23,27a1,1,0,1,0-2,0,3.373,3.373,0,0,0,1.506,2.629C24.289,31,27.865,32,32,32s7.712-1,9.494-2.371A3.373,3.373,0,0,0,43,27a1,1,0,0,0-2,0Z" fill="#143342" fill-rule="evenodd"/>
+      <path id="path176" d="M41,21a1,1,0,0,1-.278.624,3.883,3.883,0,0,1-1.131.86A16.788,16.788,0,0,1,32,24a16.788,16.788,0,0,1-7.59-1.516,3.883,3.883,0,0,1-1.131-.86A1,1,0,0,1,23,21a1,1,0,0,0-2,0,3.373,3.373,0,0,0,1.506,2.629C24.289,25,27.865,26,32,26s7.712-1,9.494-2.371A3.373,3.373,0,0,0,43,21a1,1,0,0,0-2,0Z" fill="#143342" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>
